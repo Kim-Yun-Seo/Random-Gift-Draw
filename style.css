@@ -1,0 +1,148 @@
+/* classname.style.속성 = "Red"; */
+
+body {
+  height: 100px;
+  text-align: center;
+  overflow-y: hidden;
+}
+
+.game {
+  background: url(img/back2.jpeg) center/cover;
+  flex-direction: column;
+  display: flex;
+  width: 1000px;
+  height: 690px;
+  margin: auto;
+  border-radius: 20px;
+}
+
+.readyButton {
+  position: relative;
+  font-size: 20px;
+}
+
+.show {
+  background: url(img/christmas.jpg) center/cover;
+  display: block;
+  width: 800px;
+  height: 400px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  transform: translateY(-120%);
+}
+
+.errorshow {
+  background: url(img/again.jpeg) center/cover;
+  display: block;
+  width: 800px;
+  height: 700px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  transform: translateY(-120%);
+  visibility: hidden;
+}
+
+.person {
+  text-align: center;
+  background-color: antiquewhite;
+  border: 2px solid black;
+  position: relative;
+  left: 390px;
+  top: 85px;
+  color: rgb(26, 65, 10);
+  width: 60px;
+  height: 60px;
+  font-size: 50px;
+  border-radius: 10px;
+}
+
+.present {
+  text-align: center;
+  background-color: antiquewhite;
+  border: 2px solid black;
+  position: relative;
+  left: -280px;
+  top: 85px;
+  color: rgb(26, 65, 10);
+  width: 60px;
+  height: 60px;
+  font-size: 50px;
+  border-radius: 10px;
+}
+
+.startButton {
+  text-align: center;
+  position: relative;
+  left: -150px;
+  top: 100px;
+  color: brown;
+  width: 100px;
+  height: 60px;
+  font-size: 24px;
+  border-radius: 10px;
+}
+.readyButton {
+  text-align: center;
+  position: relative;
+  left: 450px;
+  top: -10px;
+  color: rgb(14, 84, 36);
+  width: 100px;
+  height: 50px;
+  font-size: 24px;
+  border-radius: 10px;
+}
+
+.startButton:hover {
+  transform: scale(1.1);
+}
+
+.readyButton:hover {
+  transform: scale(1.1);
+}
+
+.alphaPlayButton:hover {
+  transform: scale(1.1);
+}
+
+.pickPerson {
+  background: url(img/4.jpeg);
+  background-size: cover;
+  position: relative;
+  top: 180px;
+  left: 600px;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 50px;
+}
+
+.pickPresent {
+  background-size: cover;
+  position: relative;
+  top: -118px;
+  left: 100px;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 50px;
+}
+
+.readyButton {
+  position: relative;
+  font-size: 30px;
+}
+
+.alphaPlayButton {
+  position: relative;
+  top: -50px;
+  left: 450px;
+  font-size: 18px;
+  visibility: hidden;
+}
